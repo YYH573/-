@@ -1,0 +1,45 @@
+.user_info_wrap{
+  height:45vh;
+ 
+}
+.user_bg{
+      width:800rpx;
+      height:60vh;
+      filter:blur(10rpx);
+
+    }
+.user_info{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:20%;
+}
+.user_icon{
+  width:150rpx;
+  height:150rpx;
+  border-radius:50%;
+  
+}
+.user_name{
+  color:#fff;
+  text-align:center;
+}
+.user_btn{
+  position:absolute;
+  top:25%;
+  left:50%;
+  transform:translateX(-50%);
+  
+}
+.user_switch{
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform:translateX(-50%);
+  
+}
+navigator{
+  border-radius: 5px;  
+  background-color: yellow;
+  color:green;
+}

@@ -1,0 +1,27 @@
+image{
+  position:absolute;
+  width:750rpx;
+  height:750rpx;
+  left:50%;
+  transform:translateX(-50%);
+}
+view{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform:translateX(-50%);
+  color:green;
+}
+.share{
+  position:absolute;
+  top:90%;
+}
+.Reset{
+  position:absolute;
+  top:70%;
+  left:50%;
+  transform:translateX(-50%);
+  color:green;
+}
+
+

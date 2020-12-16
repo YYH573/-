@@ -1,0 +1,5 @@
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607762408576&di=c5d37710dea82e2a80a09cc9978cb094&imgtype=0&src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20190703%2F18%2F1562151534-krcLMgSyeQ.jpg">
+</image>
+<view>种树完成</view>
+<button class="share" open-type="share">分享</button>
+<button class="Reset" bindtap="reset">再来一次</button>

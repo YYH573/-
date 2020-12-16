@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/tree/tree",
+    "pages/logs/logs",
+    "pages/settings/settings",
+    "pages/login/index",
+    "pages/fail/fail"
+    
+   
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#228B22",
+    "navigationBarTitleText": "开始种树",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "种植界面"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "种树设置"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "种树记录"
+      },
+      
+
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人"
+      }
+
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

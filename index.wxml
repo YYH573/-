@@ -1,0 +1,26 @@
+<view class="container timer {{isRunning ? 'timer--runing': ''}}">
+  <view class="timer_main">
+    <view class="timer_time-wrap">
+      <view class="timer_progress_mask"></view>
+      <view class="timer_progress timer_left">
+        <view class="timer_circle timer_circle--left" style="transform: rotate({{leftDeg}}deg);"></view>
+      </view>
+      <view class="timer_progress timer_right">
+        <view class="timer_circle timer_circle--right" style="transform: rotate({{rightDeg}}deg);"></view>
+      </view>
+      <text wx:if="{{!completed}}" class="timer_time">{{remainTimeText}}</text>
+      <text wx:if="{{isRunning}}" animation="{{nameAnimation}}" class="timer_taskName">{{taskName}}{{completed ? '完成' : '正在成长中'}}</text>
+      
+     
+    </view>
+    <input type="text" placeholder-style="text-align:center" class="timer_inputname" bindinput="changeLogName" placeholder="给您的小树取个名字吧" />
+  </view>
+
+
+
+  <view class="timer_footer">
+    <view bindtap="startTimer" data-type="work" class="timer_ctrl {{isRunning && timerType == 'rest' ? 'hide' : ''}}">{{isRunning ? '放弃该树': '播种'}}</view>
+<view bindtap="resetTimer" data-type="work" class="time_reset {{isRunning && timerType == 'rest' ? 'hide' : ''}}">{{isRunning ? '重置': ''}}</view>
+  </view>
+</view>
+

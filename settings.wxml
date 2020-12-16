@@ -1,0 +1,18 @@
+<view class="container">
+
+<view class="section panel">
+
+  <text class="section_title">
+  种树时长（分钟）
+  </text>
+
+  <view class="section_body">
+    <slider bindchange="changeWorkTime" show-value="true" min="1" max="60" value="{{workTime}}" left-icon="cancel" right-icon="success_no_circle">
+    </slider>
+  </view>
+</view>
+
+
+
+
+</view>
